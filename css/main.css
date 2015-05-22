@@ -18,8 +18,12 @@ header {
 	text-align: center;
 	font-family: 'Lobster';
 	font-size: 3em;
+	font-weight: normal;
 	margin-bottom: 0;
 	
+}
+.assis {
+	font-weight: normal;
 }
 
 nav {
@@ -40,12 +44,14 @@ nav a:hover {
 }
 
 .interest {
-	color: blue;
+	color: #000;
 	text-align: center;
+	line-height: 1.5;
 	padding-top: 10%;
 	padding-bottom: 1%;
 	margin-bottom: 0px;	
 }
+
 
 /* Dragon image downloaded from http://www.freevector.com/dragon-tattoos-graphics/ (gloomus.com)*/
 .dragon {
@@ -59,6 +65,7 @@ nav a:hover {
 }
 
 #content legend {
+	color: blue;
 	font-family: 'Lobster';
 	font-size: .75em;
 	text-indent: 2px;
@@ -82,13 +89,18 @@ nav a:hover {
 
 .ask, .contact, .hiring, .other, .demo {
 
-	color: blue;
+	color: #000;	
 	background-color: #FFCC33;
 	border: 4px solid blue;
 	margin-top: 20px;
 	text-align: left;
+	line-height: 1.5;
 	
 }
+
+/* Radio and Checkbox Styling*/
+
+
 
 hr {
 	border: 1px solid blue;
