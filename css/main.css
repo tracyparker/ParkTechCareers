@@ -1,5 +1,5 @@
 body {
-	 background-image: url('../img/diamond_plate.jpg'); /*Background downloaded from http://ahnganu.com/images/tie-dye-free-download-wallpaper-nq510/tie-dye-free-download-wallpaper-tst21 */
+	 background-image: url('../img/diamond_plate.jpg'); /*Background downloaded from http://stockicide.deviantart.com/art/Stock909-201765473 */
 	 background-attachment: fixed;
 	
 }
@@ -22,9 +22,8 @@ header {
 	font-weight: normal;
 	margin-top: 1.3%;
 	margin-bottom: .75%;
-
-	
 }
+
 .assis {
 	font-weight: normal;
 }
@@ -34,12 +33,6 @@ nav {
 	font-family: 'Lobster';
 	font-size: 1.5em;
 	margin-top: 0%;
-
-
-
-	
-
-
 }
 
 nav a {
@@ -65,14 +58,12 @@ nav a:hover {
 	margin-left: 25.15%;
 }
 
-
-/* Dragon image downloaded from http://www.freevector.com/dragon-tattoos-graphics/ (gloomus.com)*/
+/* Vector (all black, I changed the colors after download) http://www.vecteezy.com/vector-icons/52216-free-vector-of-the-day-201-disabled-icon */
 .wheelz {
 	max-height: 110px;
 	padding-top: 26px;
 
 }
-
 
 #content {
 	max-width: 50%;
@@ -113,9 +104,11 @@ nav a:hover {
 	
 }
 
+#email {
+	min-width: 228px;
+}
+
 /* Radio and Checkbox Styling*/
-
-
 
 hr {
 	border: 1px solid blue;
@@ -187,4 +180,6 @@ hr {
 		padding-top: 50%;
 	}
 }
+
+
 
