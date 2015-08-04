@@ -1,25 +1,28 @@
 body {
-	 background-image: url('../img/tie-dye-1.jpg'); /*Background downloaded from http://ahnganu.com/images/tie-dye-free-download-wallpaper-nq510/tie-dye-free-download-wallpaper-tst21 */
+	 background-image: url('../img/diamond_plate.jpg'); /*Background downloaded from http://ahnganu.com/images/tie-dye-free-download-wallpaper-nq510/tie-dye-free-download-wallpaper-tst21 */
 	 background-attachment: fixed;
 	
 }
 
 header {
 	position: fixed;
-	background-color: #FFCC33;
+	background-color: black;
 	border-top:4px solid blue;
 	border-bottom:4px solid blue;
-	min-height: 80px;
+	min-height: 16%;
 	width: 100%;
 }
 
 .header-text {
-	color: blue;
+	color: orange;
 	text-align: center;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 24px #fff, 0 0 40px orange, 0 0 70px orange, 0 0 80px orange, 0 0 100px orange, 0 0 150px orange;
 	font-family: 'Lobster';
-	font-size: 3em;
+	font-size: 2.8em;
 	font-weight: normal;
-	margin-bottom: 0;
+	margin-top: 1.3%;
+	margin-bottom: .75%;
+
 	
 }
 .assis {
@@ -30,33 +33,44 @@ nav {
 	text-align: center;
 	font-family: 'Lobster';
 	font-size: 1.5em;
-	padding-bottom: 20px;
 	margin-top: 0%;
+
+
+
+	
+
 
 }
 
 nav a {
 	color: blue;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 40px blue, 0 0 70px blue, 0 0 80px blue, 0 0 100px blue, 0 0 125px blue;
+	margin-left: 1%;
+	padding-top: 1.5%;
 }
 
 nav a:hover {
-	color: red;
+	color: white;
 }
 
 .interest {
+	background-color: rgba(255, 255, 255, .75);
+	max-width: 49.53%;
 	color: #000;
+	border: 2px solid black;
 	text-align: center;
 	line-height: 1.5;
-	padding-top: 10%;
-	padding-bottom: 1%;
+	padding-top: 8%;
 	margin-bottom: 0px;	
+	margin-left: 25.15%;
 }
 
 
 /* Dragon image downloaded from http://www.freevector.com/dragon-tattoos-graphics/ (gloomus.com)*/
-.dragon {
-	max-height: 180px;
+.wheelz {
+	max-height: 110px;
 	padding-top: 26px;
+
 }
 
 
@@ -66,6 +80,7 @@ nav a:hover {
 
 #content legend {
 	color: blue;
+	text-shadow: 0 0 10px #fff, 0 0 14px #fff, 0 0 20px blue, 0 0 30px blue, 0 0 50px blue;
 	font-family: 'Lobster';
 	font-size: .75em;
 	text-indent: 2px;
@@ -79,19 +94,19 @@ nav a:hover {
 }
 
 .ask a {
-	color: white;
+	color: orange;
 
 }
 
 .ask a:hover {
-	color: red;
+	color: blue;
 }
 
 .ask, .contact, .hiring, .other, .demo {
 
 	color: #000;	
-	background-color: #FFCC33;
-	border: 4px solid blue;
+	background-color: rgba(255, 255, 255, .75);
+	border: 2px solid blue;
 	margin-top: 20px;
 	text-align: left;
 	line-height: 1.5;
@@ -112,8 +127,9 @@ hr {
 	min-width: 100px;
 	min-height: 50px;
 	color: blue;
-	background-color: #FFCC33;
-	border: 2px solid blue;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px blue, 0 0 70px blue, 0 0 80px blue, 0 0 100px blue, 0 0 150px blue;
+	background-color: orange;
+	border: 2px solid black;
 	margin-bottom: 40px;
 }
 
@@ -126,8 +142,14 @@ hr {
 }
 
 @media(max-width: 1400px){
-	.dragon {
+	.wheelz{
 		max-height: 120px;
+	}
+}
+
+@media(max-width: 475px){
+	.wheelz{
+		max-height: 80px;
 	}
 }
 
@@ -151,11 +173,11 @@ hr {
 	}
 }
 
-@media(max-width: 458px){
+@media(max-width: 465px){
 	.interest {
-		font-size: .9em;
+		font-size: .6em;
 		padding-top: 50%;
-		margin-left: 10px;
+		margin-left: 25%;
 	}
 }
 
