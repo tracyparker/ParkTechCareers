@@ -99,6 +99,7 @@ nav a:hover, nav a.selected {
 }
 
 .submit_thanks {
+	text-decoration: none;
 	font-family: 'Lobster';
 	font-size: 1.2em;
 	min-width: 100px;
