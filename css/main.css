@@ -98,16 +98,19 @@ nav a:hover, nav a.selected {
 	max-width: 50%;
 }
 
-.submit_thanks {
+.submit {
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
 	font-family: 'Lobster';
-	font-size: 1.2em;
-	min-width: 100px;
-	min-height: 50px;
-	color:#ff7200;
+	letter-spacing: 1px;
+	font-size: 1.4em;
+	min-width: 200px;
+	min-height: 60px;
+	color: blue;
 	/*text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px blue, 0 0 70px blue, 0 0 80px blue, 0 0 100px blue, 0 0 150px blue;*/
-	background-color: blue;
+	background-color: #ff7200;
 	border: 2px solid black;
-	margin-top: 1.6%;
 	margin-bottom: 40px;
 }
 
